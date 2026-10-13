@@ -1,0 +1,49 @@
+
+Element		1.Type		Damage		2.Shape			3.Active							4.Passive (all for 6s)
+
+Growth		Healing		10-30 3/s	Aura			If not used last stage, add 10% Range for each stage until used	+10% Range/s, while active		
+Light		Heat		10-30 2/s	Beam			If target takes damage 3 times, repeat Damage			+10% Range/Blessing active
+Sun		Heat		50-70 1/s	Burst			If not lost Health since effect started, +60% to all damage 	+10% Damage/Blessing active			
+Fire		Heat		10-30 3/s	Aura			If target takes Damage, apply shape once at 60% damage		+10% Damage/s, while active			
+Fate		All		60 1/s		None			If effects are Double						+10% to this potion % (can't be increased)
+Earth		Kinetic		20-40 2/s	Transform		If yout hit an enemy, apply knock back				+10% Resistance/s, while active
+Nature		Healing		20-40 2/s	Transform		If Kill, target Drops one ingrediant				+10% Damage / Ingrediant carried
+Life		Healing		50-70 1/s	Burst			If target is Full Health, Double Damage				+60 to target healing
+Time		Enegry		10-30 2/s	Aura			If 1st Potion in this Stage, regain potion			+60% all Durations	
+Lightning	Enegry		10-30 1/s	Beam			If nearby Targets, chain +60% Damage to them			-60% all Resistance
+Air		Kinetic		20-40 3/s	Cloud			If moving since effect started, repeat passive et end		+60% Movement speed
+Mist		Necrotic	20-40 3/s	Cloud			If Kill, Summon enemy as ally for 6s, apply shape at 60% damage	+10% of Damage target deals, heal
+Death		Necrotic	50-70 1/s	Projectile		If target below 10% Health, Kill				-60% to target healing
+Space		Enegry		20-40 1/s	Transform		If you hit more than one enemy, double passive			+60% all Range
+Metal		Kinetic		50-70 1/s	Projectile		If Exess Healing, convert to Shield for 6s			+60% all Resistance	
+Water		Cold		10-30 2/s	Beam			If you used another potion befor, +10% to this potions %	+10% to your other potions % (can't be increased)
+Magic		2 RANDOM	1-120 1/s	2 RANDOM Shapes		If thrown, Add a 2 RANDOM Actives				Add 2 RANDOM Passives
+Poison		Necrotic	20-40 3/s	Cloud			If effect end, repeat passive					-10% Damage/s deald by target, while active	
+Darkness	Cold		50-70 2/s	Burst			If effect end & no target nearby, repeat damage			-10% Resistance/s, while active
+Frost		Cold		10-30 3/s	Projectile		If target takes damage 3 times, repeat passive			-60% Movement speed
+	
+
+Aura		:	Deal 1x Damage 1/s	:	Duration 6s	: AOE
+Beam		:	Deal 2x Damage 0.5/s	:	Duration 3s	: Single Target
+Burst		:	Deal 3x Damage Once	:	Instantanious	: AOE
+Projectile	:	Deal 3x Damage Once	:	Instantanious	: Single Target
+Cloud		:	Deal 1x Damage 0.5/s	:	Duration 6s	: Zone (cant overlap)
+Transform	:	Deal 2x Damage Twice	:	Duration 3s	: Wall (cant overlap)
+
+
+
+Healing, Damage as Health
+Heat, Deals Damage
+Cold, Deals Damage
+Kinetic, Deals Damage
+Death, Damages as %
+Energy, Damage as
+
+
+Sun / Space / Magic / Lightning (Max Go Brr)
+
+Heat		50-70 1/s 	Burst			If not lost Health since effect started, +60% to all damage 	+10% Damage/Blessing active
+		20-40 1/s	Transform		If you hit more than one enemy, double passive			+60% all Range
+							If thrown, Add a 2 RANDOM Actives				Add 2 RANDOM Passives
+															-60% all Resistance
+
