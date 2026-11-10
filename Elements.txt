@@ -32,18 +32,14 @@ Transform	:	Deal 2x Damage Twice	:	Duration 3s	: Wall (cant overlap)
 
 
 
-Healing, Damage as Health
-Heat, Deals Damage
-Cold, Deals Damage
-Kinetic, Deals Damage
-Death, Damages as %
-Energy, Damage as
+Shape Behavior
+
+Projectile: -->
+Beam:	====
+AoE:	/ <_>
+Smoke: .0OoO0o0O.
+Aura: ___I___
+Transform: >I<
 
 
-Sun / Space / Magic / Lightning (Max Go Brr)
-
-Heat		50-70 1/s 	Burst			If not lost Health since effect started, +60% to all damage 	+10% Damage/Blessing active
-		20-40 1/s	Transform		If you hit more than one enemy, double passive			+60% all Range
-							If thrown, Add a 2 RANDOM Actives				Add 2 RANDOM Passives
-															-60% all Resistance
 
