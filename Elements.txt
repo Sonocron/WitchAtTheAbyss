@@ -1,14 +1,14 @@
 
 Element		1.Type		Damage		2.Shape			3.Active							4.Passive (all for 6s)
 
-Growth		Healing		10-30 3/s	Aura			If not used last stage, add 10% Range for each stage until used	+10% Range/s, while active		
-Light		Heat		10-30 2/s	Beam			If target takes damage 3 times, repeat Damage			+10% Range/Blessing active
-Sun		Heat		50-70 1/s	Burst			If not lost Health since effect started, +60% to all damage 	+10% Damage/Blessing active			
+Growth		Healing		10-30 3/s	Aura			If not used last stage, add 10% Range for each stage until used	+10% DOT		
+Light		Heat		10-30 2/s	Beam			If target takes damage 3 times, repeat Damage			+60% Burst
+Sun		Heat		50-70 1/s	Burst			If not lost Health since effect started, +60% to all damage 	+10% Damage + Range/Blessing active			
 Fire		Heat		10-30 3/s	Aura			If target takes Damage, apply shape once at 60% damage		+10% Damage/s, while active			
 Fate		All		60 1/s		None			If effects are Double						+10% to this potion % (can't be increased)
 Earth		Kinetic		20-40 2/s	Transform		If yout hit an enemy, apply knock back				+10% Resistance/s, while active
 Nature		Healing		20-40 2/s	Transform		If Kill, target Drops one ingrediant				+10% Damage / Ingrediant carried
-Life		Healing		50-70 1/s	Burst			If target is Full Health, Double Damage				+60 to target healing
+Life		Healing		50-70 1/s	Burst			If target is Full Health, Double Damage				+60% to target healing
 Time		Enegry		10-30 2/s	Aura			If 1st Potion in this Stage, regain potion			+60% all Durations	
 Lightning	Enegry		10-30 1/s	Beam			If nearby Targets, chain +60% Damage to them			-60% all Resistance
 Air		Kinetic		20-40 3/s	Cloud			If moving since effect started, repeat passive et end		+60% Movement speed
