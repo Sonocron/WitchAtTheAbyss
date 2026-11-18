@@ -1,32 +1,38 @@
 
-Element		1.Type		Damage		2.Shape			3.Active							4.Passive (all for 6s)
+Element		1.Type		2.Shape			3.Active							4.Passive (all for 6s)
 
-Fate		All		60 1/s		None			If effects are Double						+10% to this potion % passive
-Fire		Heat		10-30 3/s	Aura			If target near, apply 60% of main Damage to target in range	+10% Damage/s, while active		
+Fate		All		None			If effects are Double						x2 this potion % passive
+Fire		Heat		Aura			If target near, apply 50% of main Damage to target in range	+10% Damage/s, while active		
+Death		Necrotic	Projectile		If target below 10% Health, Kill				+50% Damage
+Nature		Healing		Transform		If Kill, +50% chance target Drops one ingrediant		+10% Damage / Ingrediant carried		
+Growth		Healing		Aura			If not used, add 10% Damage for each stage until used		+10% Range/s
+Time		Enegry		Aura			If 1st Potion in this Stage, regain potion			+50% all Durations	
+Air		Enegry		Cloud			If moving over damaging terrain, take no damage			+50% Movement speed
+Life		Healing		Burst			If target is Full Health, Double Damage or healing		+50% to target healing
+Space		Cold		Transform		If you hit more than one enemy, double passive			+50% all Range
+Water		Cold		Beam			If rest, all potions regain twice as many 			+50% Starting Potions
+Darkness	Cold		Burst			If effect end & no target nearby, repeat damage			-10% Resistance/s, while active
+Decay		Necrotic	Cloud			If effect end, repeat passive					-10% W Damage/s deald by target, while active	
+Mist		Necrotic	Cloud			If Kill, Summon enemy as ally at max 50% Health			-5% Max Health/s
+Sun		Heat		Burst			The god you have most Blessings of +50% to their effect.	+10% Damage per blessing
+Lightning	Enegry		Beam			If target takes damage 3 times, repeat Damage			+50% W Damage 
+Frost		Kinetic		Projectile		If target takes damage 3 times, repeat passive			-10% Movement Speed / secound
+Earth		Kinetic		Transform		If you would be reduced to 0, be reduced to 1 instead		+50% Max Health
+Metal		Kinetic		Projectile		If you take Damage, one per stage, you dont			+50% all Resistance
+Light		Heat		Beam			If not lost Health this stage, +50% to all damage		+5% Damage / Gold carried
+Magic		RANDOM		2 RANDOM Shapes		If thrown, Add a 2 RANDOM Actives				Add 2 RANDOM Passive
 
 
-			
-Earth		Kinetic		20-40 2/s	Transform		If Exess Healing, convert to Shield for 6s			+10% Resistance/s, while active
-Nature		Healing		20-40 2/s	Transform		If Kill, target Drops one ingrediant				+10% Damage / Ingrediant carried
-Life		Healing		50-70 1/s	Burst			If target is Full Health, Double Damage				+60% to target healing
-Time		Enegry		10-30 2/s	Aura			If 1st Potion in this Stage, regain potion			+60% all Durations	
-Lightning	Enegry		10-30 1/s	Beam			If nearby Targets, chain +60% Damage to them			-60% all Resistance
-Air		Kinetic		20-40 3/s	Cloud			If moving since effect started, repeat passive et end		+60% Movement speed
-Mist		Necrotic	20-40 3/s	Cloud			If Kill, Summon enemy as ally for 6s, apply shape at 60% damage	+10% of Damage target deals, heal
-Death		Necrotic	50-70 1/s	Projectile		If target below 10% Health, Kill				+60% Burst
-Space		Enegry		20-40 1/s	Transform		If you hit more than one enemy, double passive			+60% all Range
-Metal		Kinetic		50-70 1/s	Projectile		????								+60% all Resistance	
-Water		Cold		10-30 2/s	Beam			If you used another potion befor, +10% to this potions %	+10% to your other potions % (can't be increased)
-Magic		2 RANDOM	1-120 1/s	2 RANDOM Shapes		If thrown, Add a 2 RANDOM Actives				Add 2 RANDOM Passives
-Decay		Necrotic	20-40 3/s	Cloud			If effect end, repeat passive					-10% Damage/s deald by target, while active	
-Darkness	Cold		50-70 2/s	Burst			If effect end & no target nearby, repeat damage			-10% Resistance/s, while active
-Frost		Cold		10-30 3/s	Projectile		If target takes damage 3 times, repeat passive			-60% Movement Speed
 
-Sun		Heat		50-70 1/s	Burst			If not lost Health since effect started, +60% to all damage 	+10% Damage + Range/Blessing active
-Growth		Healing		10-30 3/s	Aura			If not used last stage, add 10% Range for each stage until used	+10% ???		
-Light		Heat		10-30 2/s	Beam			If target takes damage 3 times, repeat Damage			+10% ???
+
+
+
+
+
+
+Light		Heat		Beam			If target takes damage 3 times, repeat Damage			+10% Damage per Blessing
 	
-
+-------------------------------------------------------
 Aura		:	Deal 1x Damage 1/s	:	Duration 6s	: AOE
 Beam		:	Deal 2x Damage 0.5/s	:	Duration 3s	: Single Target
 Burst		:	Deal 3x Damage Once	:	Instantanious	: AOE
@@ -44,11 +50,6 @@ AoE:	/ <_>
 Smoke: .0OoO0o0O.
 Aura: ___I___
 Transform: >I<
-
-
-Decay		Necrotic	20-40 3/s	Cloud			If effect end, repeat passive					-10% Damage/s deald by target, while active	
-Mist				20-40 3/s	Cloud			If Kill, Summon enemy as ally for 6s, apply shape at 60% damage	+10% of Damage target deals, heal
-									If Exess Healing, convert to Shield for 6s			+60% all Resistance	
 
 
 
