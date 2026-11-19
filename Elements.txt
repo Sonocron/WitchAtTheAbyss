@@ -2,24 +2,26 @@
 Element		1.Type		2.Shape			3.Active							4.Passive (all for 6s)
 
 Fate		All		None			If effects are Double						x2 this potion % passive
-Fire		Heat		Aura			If target near, apply 50% of main Damage to target in range	+10% Damage/s, while active		
+Fire		Heat		Aura			If target near, apply 50% of main Damage to target in range	+10% Damage/Healing per s, while active		
 Death		Necrotic	Projectile		If target below 10% Health, Kill				+50% Damage
-Nature		Healing		Transform		If Kill, +50% chance target Drops one ingrediant		+10% Damage / Ingrediant carried		
-Growth		Healing		Aura			If not used, add 10% Damage for each stage until used		+10% Range/s
+Nature		Healing		Transform		If Kill, +50% chance target Drops one ingrediant		+10% Damage/Healing per Ingrediant carried
+Growth		Healing		Aura			If not used, add 10% Duration for each stage until used		+10% Range/s
 Time		Enegry		Aura			If 1st Potion in this Stage, regain potion			+50% all Durations	
-Air		Enegry		Cloud			If moving over damaging terrain, take no damage			+50% Movement speed
-Life		Healing		Burst			If target is Full Health, Double Damage or healing		+50% to target healing
+Air		Enegry		Cloud			**If moving over damaging terrain, take no damage**		+50% Movement Speed				||Active inactive
+
+Life		Healing		Burst			If Healing, your healing can exead max hit Point for Duration	+50% Healing
+
 Space		Cold		Transform		If you hit more than one enemy, double passive			+50% all Range
 Water		Cold		Beam			If rest, all potions regain twice as many 			+50% Starting Potions
 Darkness	Cold		Burst			If effect end & no target nearby, repeat damage			-10% Resistance/s, while active
 Decay		Necrotic	Cloud			If effect end, repeat passive					-10% W Damage/s deald by target, while active	
 Mist		Necrotic	Cloud			If Kill, Summon enemy as ally at max 50% Health			-5% Max Health/s
-Sun		Heat		Burst			The god you have most Blessings of +50% to their effect.	+10% Damage per blessing
+Sun		Heat		Burst			The god you have most Blessings of +50% to their effect.	+10% Damage/Healing per blessing
 Lightning	Enegry		Beam			If target takes damage 3 times, repeat Damage			+50% W Damage 
-Frost		Kinetic		Projectile		If target takes damage 3 times, repeat passive			-10% Movement Speed / secound
+Frost		Kinetic		Projectile		If target takes damage 3 times, repeat passive			-10% Movement Speed / second
 Earth		Kinetic		Transform		If you would be reduced to 0, be reduced to 1 instead		+50% Max Health
 Metal		Kinetic		Projectile		If you take Damage, one per stage, you dont			+50% all Resistance
-Light		Heat		Beam			If not lost Health this stage, +50% to all damage		+5% Damage / Gold carried
+Light		Heat		Beam			If not lost Health this stage, +50% to all damage		+5% Damage/Healing Gold carried
 Magic		RANDOM		2 RANDOM Shapes		If thrown, Add a 2 RANDOM Actives				Add 2 RANDOM Passive
 
 
